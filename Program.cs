@@ -173,14 +173,26 @@ namespace Hello
             //Console.WriteLine(5 == 5);
 
             //Math Class in C#
-            int a = Math.Max(34, 345); // => Gives Maximum Value
-            Console.WriteLine(a);
-            int b = Math.Min(34, 345); // => Gives Minimum Value
-            Console.WriteLine(b);
-            double d = Math.Sqrt(36); // => Gives Square Root of 36
-            Console.WriteLine(d);
-            int e = Math.Abs(-39); // => Gives Abdolute Value of Integer
-            Console.WriteLine(e);
+            // int a = Math.Max(34, 345); // => Gives Maximum Value
+            // Console.WriteLine(a);
+            // int b = Math.Min(34, 345); // => Gives Minimum Value
+            // Console.WriteLine(b);
+            // double d = Math.Sqrt(36); // => Gives Square Root of 36
+            // Console.WriteLine(d);
+            // int e = Math.Abs(-39); // => Gives Abdolute Value of Integer
+            // Console.WriteLine(e);
+
+             // //Strings Methods
+             // string hello = "Hello World this is arhan";
+             // Console.WriteLine(hello.length); // => Gives Length of String
+             // Console.WriteLine(hello.ToUpper()); // => Gives String in Upper Case
+             // Console.WriteLine(hello.ToLower()); // => Gives String in Lower Case
+             // Console.WriteLine(hello + " You are nice"); // => Concatenates the string
+             // Console.WriteLine(string.Concat(hello," You are nice")); // => Another way to caoncatenate the string
+             
+             string name = Console.ReadLine();
+             string candies = Console.ReadLine();
+             Console.WriteLine($"Your name is {name}. You will get {candies} candies");
 
 
             Console.ReadLine(); // => used to hold console so that we will able to read the output
