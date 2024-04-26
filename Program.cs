@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hello
 {
-     class Program
+    class Program
     {
         static void Main(string[] args)
         {
@@ -179,21 +179,68 @@ namespace Hello
             // Console.WriteLine(b);
             // double d = Math.Sqrt(36); // => Gives Square Root of 36
             // Console.WriteLine(d);
-            // int e = Math.Abs(-39); // => Gives Abdolute Value of Integer
+            // int e = Math.Abs(-39); // => Gives Abdsolute Value of Integer
             // Console.WriteLine(e);
 
-             // //Strings Methods
-             // string hello = "Hello World this is arhan";
-             // Console.WriteLine(hello.length); // => Gives Length of String
-             // Console.WriteLine(hello.ToUpper()); // => Gives String in Upper Case
-             // Console.WriteLine(hello.ToLower()); // => Gives String in Lower Case
-             // Console.WriteLine(hello + " You are nice"); // => Concatenates the string
-             // Console.WriteLine(string.Concat(hello," You are nice")); // => Another way to caoncatenate the string
-             
-             string name = Console.ReadLine();
-             string candies = Console.ReadLine();
-             Console.WriteLine($"Your name is {name}. You will get {candies} candies");
+            // //Strings Methods
+            // string hello = "Hello World this is arhan";
+            // Console.WriteLine(hello.length); // => Gives Length of String
+            // Console.WriteLine(hello.ToUpper()); // => Gives String in Upper Case
+            // Console.WriteLine(hello.ToLower()); // => Gives String in Lower Case
+            // Console.WriteLine(hello + " You are nice"); // => Concatenates the string
+            // Console.WriteLine(string.Concat(hello," You are nice")); // => Another way to caoncatenate the string
 
+            //string name = Console.ReadLine();
+            //string candies = Console.ReadLine();
+            //Console.WriteLine($"Your name is {name}. You will get {candies} candies");
+
+            // string hello = "Hello World this is arhan";
+            //Console.WriteLine(hello[0]);
+            //Console.WriteLine(hello.IndexOf("is"));
+            //Console.WriteLine(hello.Substring(1));
+
+            //Escape sequence Characters
+            //string hello = "Hello World this is \"arhan\"";
+            //Console.WriteLine(hello);
+            //string hello1 = "Hello World\nthis is arhan";
+            //Console.WriteLine(hello1);
+            //string hello2 = "Hello World\t this is arhan";
+            //Console.WriteLine(hello2);
+
+            //Conditional Statements
+            //If-Else If-Else
+            //Console.WriteLine("Please enter your age");
+            //string ageStr = Console.ReadLine();
+            //int age = Convert.ToInt32(ageStr);
+            //bool isBanned = true;
+            // if (age < 2)
+            // {
+            //     Console.WriteLine("You are just born");
+            // }
+            //else if (age < 10)
+            // {
+            //     Console.WriteLine("Please finish your high school");
+            // }
+            // else if (age < 18)
+            // {
+            //     Console.WriteLine("You are below 18 years");
+            // }
+            // else if (age < 75)
+            // {
+            //     Console.WriteLine("You can drive");
+            // }
+            // else{
+            //     Console.WriteLine("You cannot drive");
+            // }
+
+            //Switch Case
+            int age = 78;
+            switch (age)
+            {
+
+            }
+
+            //Loops
 
             Console.ReadLine(); // => used to hold console so that we will able to read the output
 
