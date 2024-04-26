@@ -177,6 +177,10 @@ namespace Hello
             Console.WriteLine(a);
             int b = Math.Min(34, 345); // => Gives Minimum Value
             Console.WriteLine(b);
+            double d = Math.Sqrt(36); // => Gives Square Root of 36
+            Console.WriteLine(d);
+            int e = Math.Abs(-39); // => Gives Abdolute Value of Integer
+            Console.WriteLine(e);
 
 
             Console.ReadLine(); // => used to hold console so that we will able to read the output
