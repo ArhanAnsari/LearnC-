@@ -234,14 +234,31 @@ namespace Hello
             // }
 
             //Switch Case
-            int age = 78;
+            /*int age = 78; //Try changing age for the case given below to see the output
             switch (age)
             {
+                case 18:
+                    Console.WriteLine("Please wait for a year");
+                    break;
 
-            }
+                case 20:
+                    Console.WriteLine("You are 20");
+                    break;
+
+                default:
+                    Console.WriteLine("Enjoy!");
+                    break;
+            }*/
 
             //Loops
+            Console.WriteLine(1);
+            Console.WriteLine(2);
+            Console.WriteLine(3);
+            Console.WriteLine(4);
+            Console.WriteLine(5);
 
+            //Better Alternative - Loops
+            //While Loop
             Console.ReadLine(); // => used to hold console so that we will able to read the output
 
         }
