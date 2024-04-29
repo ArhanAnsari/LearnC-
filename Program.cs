@@ -1,3 +1,4 @@
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -251,14 +252,51 @@ namespace Hello
             }*/
 
             //Loops
-            Console.WriteLine(1);
-            Console.WriteLine(2);
-            Console.WriteLine(3);
-            Console.WriteLine(4);
-            Console.WriteLine(5);
+            //Console.WriteLine(1);
+            //Console.WriteLine(2);
+            //Console.WriteLine(3);
+            //Console.WriteLine(4);
+            //Console.WriteLine(5);
 
             //Better Alternative - Loops
             //While Loop
+            //Program to write numbers from 1 to 5 using while loop
+            //int i = 0
+            //while(i < 5)
+            //{
+            //    Console.WriteLine(i + 1);
+            //    i++;
+            //}
+
+            //do-while loop
+
+            //int i = 0;
+            //do{
+            //    Console.WriteLine(i);
+            //    i++;
+            //}while(i < 5);
+
+            //for loop
+            //for (int j = 0; j < 5; j++)
+            //{
+            //    Console.WriteLine(j);
+            //}
+
+            //Break and Continue
+            //for (int j = 0; j < 5; j++)
+            //{
+            //    if (j == 0)
+            //    {
+            //    continue;   
+            //    }
+            //    Console.WriteLine(j);
+            //    //break;
+            //}
+            /*
+             Break - Leave this loop forever
+             Continue - Leave this particular iteration of the loop
+             */
+
             Console.ReadLine(); // => used to hold console so that we will able to read the output
 
         }
