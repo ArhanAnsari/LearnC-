@@ -1,4 +1,3 @@
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +8,32 @@ namespace Hello
 {
     class Program
     {
+
+        //static void Greet() //Method Prototype
+        //{
+        //    {
+        //        Console.WriteLine("Good Morning"); //Method Defination
+        //    }
+        //}
+
+        //static void Greet(string name)
+        //{
+        //    Console.WriteLine("Good Morning " + name);
+        //}
+
+        //static float Average(int a, int b, int c)
+        //{
+        //    float sum = a + b + c;
+        //    return sum / 3;
+        //}
+
+        //Method Overloading
+        //static float Average(int a, int b)
+        //{
+        //    return (a + b) / 2;
+        //}
+
+
         static void Main(string[] args)
         {
             //Comments
@@ -296,6 +321,21 @@ namespace Hello
              Break - Leave this loop forever
              Continue - Leave this particular iteration of the loop
              */
+
+            //Methods
+            //Greet(); // => Method Call
+            //Greet("Arhan"); // => Passing Argument
+
+            //Console.WriteLine(Average(2,6,8));
+            //float temp = Average(9,3,0);
+            //Console.WriteLine(temp);
+            //Console.WriteLine(Average(3,3,3));
+
+            //Method Overloading
+            //Console.WriteLine(Average(3,3));
+
+            //Object Oriented Programming in C#
+
 
             Console.ReadLine(); // => used to hold console so that we will able to read the output
 
