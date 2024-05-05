@@ -1,3 +1,4 @@
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -335,10 +336,17 @@ namespace Hello
             //Console.WriteLine(Average(3,3));
 
             //Object Oriented Programming in C#
-
+            Player tommy = new Player();
+            Console.WriteLine(tommy.name);
+            Console.WriteLine(tommy.health);
+            tommy.SetHealth(57);
+            Console.WriteLine(tommy.health);
+            Console.WriteLine(tommy.GetHealth());
+            //Console.WriteLine(tommy.h);
 
             Console.ReadLine(); // => used to hold console so that we will able to read the output
 
         }
     }
 }
+x
